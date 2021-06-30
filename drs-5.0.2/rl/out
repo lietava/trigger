@@ -1,0 +1,65 @@
+Reading file:data.dat 
+ data.dat : opened successfully.
+Event #0 ---------------------- 
+open sample 
+Event #1 ---------------------- 
+close sample 1024 
+Wave 0: min= -378.799988 max=364.500000 
+Wave 1: min= -164.600006 max=140.000000 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.913947 Tot sigma=0.080257 max= 5.025223 
+
+open sample 
+Event #2 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.879060 Tot sigma=0.052716 max= 4.966270 
+
+open sample 
+Event #3 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.821063 Tot sigma=0.080233 max= 4.896614 
+
+open sample 
+Event #4 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.844550 Tot sigma=0.055621 max= 4.906250 
+
+open sample 
+Event #5 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.847348 Tot sigma=0.048534 max= 4.957184 
+
+open sample 
+Event #6 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.862989 Tot sigma=0.048926 max= 4.947412 
+
+open sample 
+Event #7 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.851973 Tot sigma=0.070082 max= 4.977226 
+
+open sample 
+Event #8 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.817511 Tot sigma=0.050762 max= 4.878723 
+
+open sample 
+Event #9 ---------------------- 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.846127 Tot sigma=0.053346 max= 4.939880 
+
+open sample 
+close sample 1024 
+istart1 0 istart2 0 nn 8 
+Tot mean= 4.789781 Tot sigma=0.096783 max= 4.908516 
+
+All samples read nsample: 10 

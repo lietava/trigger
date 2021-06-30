@@ -1,0 +1,4 @@
+To start:
+in drs-5.0.2$
+nohup ./drsrl > log/mylog.log
+( NOT drs_exam_rl ! )

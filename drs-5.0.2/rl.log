@@ -1,0 +1,9 @@
+format= D:4 
+size of scope data: 32 
+Found DRS4 evaluation board, serial #2493, firmware revision 21260
+Wave 0: min= -39.099998 max=79.599998 
+Event #0 read successfully
+Warning: deltaT= 18.000000 
+Warning: deltaT= 12.000000 
+Interrupt signal 15 received.
+Stoping properly 

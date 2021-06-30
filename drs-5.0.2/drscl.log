@@ -1,0 +1,77 @@
+Script started on Mon 28 Jul 2014 04:31:42 PM CEST
+]0;root@pcalicebhm10:/home/dl6/local/sw/drs-5.0.2[?1034h[root@pcalicebhm10 drs-5.0.2]# ./drscl
+DRS command line tool, Revision 21215
+Type 'help' for a list of available commands.
+
+Found DRS4 board  0 on USB, serial #2272, firmware revision 17662
+
+B0> info
+==============================
+Mezz. Board index:    0
+DRS type:             DRS4
+Board type:           8
+Serial number:        2272
+Firmware revision:    17662
+Temperature:          41.1 C
+Input range:          -0.5V...0.5V
+Calibrated range:     -0.5V...0.5V
+Calibrated frequency: 0.000 GHz
+Status reg.:          0000001E
+Control reg.:         08E00001
+  DMODE circular
+  TRANSP_MODE enabled
+  Hardware trigger enabled
+  Readout from stop
+Trigger bus:          00000000
+Frequency:            0.698 GHz
+B0> read 0 0 orbit_chan0 1                    
+B0> read 1 0 orbit_chan1_nocal
+Data successfully written to "orbit_chan1_nocal"
+B0> ^[[A^[[A        read 1 1 orbit_chan1_cal
+Calibration not valid for board #2272
+Data successfully written to "orbit_chan1_cal"
+B0> help
+Available commands:
+
+active <0|1>                Set domino active mode on (1) or off (0)
+board <i>|<i1> <i2>|all     Address individual board/range/all boards
+calib [dir]                 Response Calibration. Use dir="area" for MEG
+chn [n]                     Set number of channels: 8, 4, 2, 1
+ct                          Chip Test
+del <0|1>                   Switch delayed start on/off
+dir                         Show CF directory
+dmode <0|1>                 Set Domino mode 0=single, 1=cont.
+et                          EEPROM test
+exit                        Exit program
+freq <ghz> [0|1]            Set frequency of board [without/with] regulation
+info                        Show information about board
+init                        Initialize board
+led <0|1>                   Turn LED on (1) or off (0)
+lock [0|1]                  Display lock status [without/with] restart
+multi [0|1]                 Turn multi-buffer mode on/off
+offset <voltage>            Set offset voltage
+phase <value> [0|1]         Set ADC clock phase and inversion
+quit                        Exit program
+ram                         Test speed to FPGA RAM
+range <center>              Change input range to <center>+=0.5V
+read <chn> [0|1] [file]     Read waveform to [file], chn=0..19 [with] calibration
+refclk [0|1]                Use FPGA ref. clk (0) or ext. P2 ref. clk (1)
+reg                         Register test
+serial <number>             Set serial number of board
+scan                        Scan for boards
+standby <0|1>               Turn standby mode on (1) or off (0)
+start                       Start domino wave
+stop                        Issue soft trigger
+tcout [file] [idx_offset]   Print time calibration of DRS4, or write it onto [file]
+tcs <0|1>                   Timing calibration signal on (1) or off (0)
+tcalib [freq]               Timing Calibration
+tlevel <voltage>            Set trigger level in Volts
+trans <0|1>                 Set transparent mode on (1) or off (0)
+trig <0|1>                  Hardware trigger on (1) or off (0)
+upload <file>               Upload ACE file to CF
+volt off|<voltage>          Turn calibration voltage on/off
+
+B0> q
+]0;root@pcalicebhm10:/home/dl6/local/sw/drs-5.0.2[root@pcalicebhm10 drs-5.0.2]# exit
+
+Script done on Mon 28 Jul 2014 05:15:59 PM CEST
